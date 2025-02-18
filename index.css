@@ -1,0 +1,62 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    /* background-image: url("images/CC-Blackjack-Card-Values.jpg");
+    background-size: cover; */
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    /* position: relative; */
+}
+
+body::before {
+    content: "";
+    background-image: url("images/CC-Blackjack-Card-Values.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 30px auto;
+    /* height: 60%; */
+    font-size: 20px;
+    font-weight: 900px;
+    /* padding: 50px; */
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+#message-el {
+    font-style: italic;
+    text-align: center;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: 2px 20px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 200px;
+}
